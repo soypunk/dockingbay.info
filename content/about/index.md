@@ -6,7 +6,7 @@ draft = false
 ignore = true
 +++
 
-<strong>Docking Bay</strong> is a chronicle of experiences written from the perspective of characters in science-fiction miniatures or roleplaying games. Generally these roleplaying sessions are played "solo", without a GM or other players. The author uses a combination of roleplaying game systems and gamemaster tools that help adjudicate situations fairly given the context of the situations characters find themselves in.
+**Docking Bay** is a chronicle of experiences written from the perspective of characters in science-fiction miniatures or roleplaying games. Generally these roleplaying sessions are played "solo", without a GM or other players. The author uses a combination of roleplaying game systems and gamemaster tools that help adjudicate situations fairly given the context of the situations characters find themselves in.
 
 The initial focus for these adventures will be in a far-future universe populated with bounty hunters, traders, smugglers, robots, and plenty of humanoid aliens.
 

@@ -1,19 +1,19 @@
 {{ define "main" }}
 <article>
   <header>
-    <h1 class="no-margin-bottom">{{ .Title }}</h1>
-    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{ $dateHuman := .Date | time.Format ":date_long" }}
-    <p class="text-muted">Posted on <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></p>
+    <h1 class="margin-top">{{ .Title }}</h1>
   </header>
-  {{ .Content }}
-  
+
+  <section class="prose flow">
+	  {{ .Content }}
+  </section>
   <hr>
   
   <footer>
-    {{ $lastmodMachine := .Lastmod | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{ $lastmodHuman := .Lastmod | time.Format ":date_long" }}
-    <p class="text-muted">Last modified: <time datetime="{{ $lastmodMachine }}">{{ $lastmodHuman }}</time></p>  
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+
+    <p class="">Posted on <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>.</p>
   
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </footer>
