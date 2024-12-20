@@ -1,6 +1,6 @@
 baseURL = 'https://dockingbay.info/'
 languageCode = 'en-us'
-title = 'Testing'
+title = 'Docking Bay'
 theme = 'db'
 
 enableRobotsTXT = true
