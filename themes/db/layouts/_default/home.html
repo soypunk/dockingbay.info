@@ -30,10 +30,10 @@
 		</div>
 		
 		<div class="grid-third">
-			<h2 class="no-margin-bottom">Recent Reviews</h2>
+			<h2 class="no-margin-bottom">Product Reviews</h2>
 			<ul>
 			{{ $reviews := where .Site.RegularPages "Section" "reviews" }}
-			{{ range $reviews }}
+			{{ range first 10 $reviews }}
 				<li>
 					<h3 class="no-margin-bottom"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
 					{{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
