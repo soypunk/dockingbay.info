@@ -9,7 +9,7 @@
 		<ul class="list-unstyled">
 		{{ range first 10 (where .Site.RegularPages "Section" "in" (slice "recaps" "blog")) }}
 			<li>
-				<article>
+				<article class="margin-bottom-large">
 					<header>
 						<h3 class="no-margin-bottom">
 							<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
