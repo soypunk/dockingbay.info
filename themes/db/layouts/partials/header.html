@@ -1,0 +1,7 @@
+<h1 class="uppercase text-uppercase">{{ site.Title }}</h1>
+{{ if .IsHome }}
+	{{ .Content }}
+{{ end }}
+<div class="horziontal-borders padding-top-small padding-bottom-small">
+	{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+</div>
