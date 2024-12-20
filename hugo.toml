@@ -18,3 +18,7 @@ summaryLength = 50
   filename = 'sitemap.xml'
   priority = -1
 
+[privacy]
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
