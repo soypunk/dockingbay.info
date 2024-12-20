@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+	<div class="row row-gap-large">
+	
+		<div class="grid-two-thirds">
+	    
+			<h1>{{ .Title }}</h1>
+			
+			{{ .Content }}	    
+	    
+			<ul class="list-unstyled">
+				{{ range .Paginator.Pages }}
+				<li class="margin-bottom-large">
+					<h2 class="no-margin-bottom">
+						<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+					</h2>
+					{{ .Summary }}
+					<p>
+						<a href="{{ .RelPermalink }}">Read More: {{ .LinkTitle }}</a>
+					</p>
+				<li>
+				{{ end }}
+			</ul>
+			
+			<div>
+			{{ template "_internal/pagination.html" . }}
+			</div>
+
+		</div>
+
+		<div class="grid-third">
+			<h2>Universes</h2>
+			<ul>
+			{{ $sec := .Section }}
+			{{ $t := where .Site.Taxonomies.universes ".Page.Section" $sec }}
+			{{ range $t }}
+				<li>
+					<a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})
+				</li>
+			{{ end }}
+			</ul>
+
+			<h2>Tags</h2>
+			<ul>
+			{{ $sec := .Section }}
+			{{ $t := where .Site.Taxonomies.tags ".Page.Section" $sec }}
+			{{ range $t }}
+				<li>
+					<a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})
+				</li>
+			{{ end }}
+			</ul>
+		</div>
+	</div>
+    
+{{ end }}
