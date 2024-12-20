@@ -3,6 +3,7 @@ title = 'Lets Play: M-Space - D100 Mythras-Derived Space Opera'
 date = 2020-01-16T11:00:00-08:00
 draft = false
 description = 'A solo-play through and review of M-Space'
+tags = ['M-Space', 'd100']
 +++ 
 
 [M-Space, written by Clarence Redd and published by FrostByte Books](http://frostbytebooks.com/m-space), is pitched as _"d100 Roleplaying in the Far Future"_. Let's build a character and solo play a random space encounter to see how it works.

@@ -3,6 +3,7 @@ title = 'Space Aces: The New Guidebook (Early Preview) Review'
 date = 2021-01-15T11:20:00-08:00
 draft = false
 description = 'Building a character and messing around in Spaces Aces: The New Guidebook'
+tags = ['Space Aces']
 +++
 
 Steven D's tabletop roleplaying game _Space Aces_ has come a long way from the initial version which was a single page "business card" game. It is now a 25 page book with bright and punchy artwork, dozens of random tables, and a number of plug'n'play game systems that allow one to play in a universe of "campy sci-if" fun. The [game was successfully funded on Kickstarter in January 2021](https://www.kickstarter.com/projects/spaceaces/space-aces-rpg-the-new-guidebook) (pledges are still open!) and while Steven is still putting the final touches on the book he was kind enough to provide me with an **advance copy** for review (erm, play.) This means that some things may change between my experience with it and yours.

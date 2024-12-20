@@ -3,6 +3,7 @@ title = 'Starport Scum Revisited: How I Play it Solo'
 date = 2024-10-05T15:40:00-08:00
 draft = false
 description = 'How I use the Starport Scum toolkit to create my own solo rpg framework.'
+tags = ['Starport Scum']
 +++
 
 One piece of feedback I got on my [Starport Scum RPG introduction](/reviews/starport-scum-revisited/) from the grognards of the Nordic Weasel Games discord was that it didn't go into enough details about the nuts & bolts of running a session. So we are back with a second part where I to explain how I would play Starport Scum as an RPG campaign. I don't do one-shots but assuming that's what you wanted then pick a job from the book at random, use the character generation tables, and bob's your uncle.

@@ -3,6 +3,7 @@ title = 'Starport Scum, a Forgotten Gem'
 date = 2022-10-12T10:55:00-08:00
 draft = false
 description = 'The ultimate narrative miniatures sci-fi toolkit.'
+tags = ['Starport Scum']
 +++
 
 Back in 2016, Nordic Weasel Games published a title called [Starport Scum][1] written by Ivan Sorensen and Mathew Sparkes. It is a quirky "narrative miniatures wargame", much like Two Hour Wargames’ 5150 RPG line (Fringe Space, No Limits, New Beginnings, etc.) This means that there is about an equal amount of support for RPG-like activities as there are miniatures like ones. 

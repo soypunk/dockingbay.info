@@ -3,6 +3,7 @@ title = 'Lets Play: The Calypso Compendium - A Narrative Solo Game'
 date = 2020-01-27T13:00:00-08:00
 draft = false
 description = 'A solo-play through and review of The Calypso Compendium.'
+tags = ['Calypso Compendium', 'Powered by the Apocalypse (PbtA)']
 +++
 
 [The Calypso Compendium, written by Tam H., is a mashup of _Powered by the Apocalypse_ mechanics with _Lady Blackbird_ style character generation][1]. In addition it provides a number of tools commonly found in other solo roleplaying toolkits (or "gamemaster emulators", oracles, etc.)

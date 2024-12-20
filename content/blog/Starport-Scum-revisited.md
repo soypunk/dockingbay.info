@@ -3,6 +3,7 @@ title = 'Starport Scum Revisited as a Solo Roleplaying Game System'
 date = 2024-10-04T11:30:00-08:00
 draft = false
 description = 'A closer look at Starport Scum if you are primarily using it as an RPG.'
+tags = ['Starport Scum']
 +++
 
 Someone asked over in the [Nordic Weasel Gaming][NWG] discord about folks' experiences using _[Dungeon Scum][]_ or _[Starport Scum][]_ for solo RPGing. Rather than dump a bunch of knowledge into a discord group that is not easily searchable or likely to disappear one day, I figured I would share my experiences here.
