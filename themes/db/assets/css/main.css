@@ -516,6 +516,7 @@
   /* Sizes */
   --font-size: 100%;
   --spacing: 1.5625em;
+  --spacing-xtra-small: 0.1953em;
   --spacing-small: 0.7812em;
   --spacing-large: 3.125em;
   --container-width: 88%;
@@ -1555,6 +1556,27 @@ strong, b, th {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: lch(var(--l-80) var(--c-black));
+}
+
+#site-title-wrapper {
+  display: inline-block;
+  padding: var(--spacing-small);
+  background-color: lch(var(--l-30) var(--c-primary));
+  margin-bottom: var(--spacing);
+}
+
+#site-title {
+  display: inline;
+  font-family: var(--font-monospace);
+  font-weight: 100;
+  line-height: 1;
+  margin: 0;
+  color: lch(var(--l-90) var(--c-white));
+  text-shadow:
+    1px 1px 5px lch(var(--l-50) var(--c-primary-alt)),
+    -1px 1px 5px lch(var(--l-50) var(--c-primary-alt)),
+    -1px -1px 5px lch(var(--l-50) var(--c-primary-alt)),
+    1px -1px 5px lch(var(--l-50) var(--c-primary-alt));
 }
 
 body > div > footer {
