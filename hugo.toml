@@ -9,6 +9,7 @@ summaryLength = 50
 
 [taxonomies]
   game = 'games'
+  series = 'series'
   universe = 'universes'
   tag = 'tags'
 
