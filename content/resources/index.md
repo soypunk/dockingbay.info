@@ -35,6 +35,7 @@ These are some of the game systems, supplements, and tools I'm using to help wit
 - [Starforged Oracles][Starforged]
 - [Star Scoundrels][] (Character Traits)
 - [Star Wars: Galactic Campaign Guide (2003)][] (Planet Generation, Names)
+- [The Perilous Void][PV]
 - [US County Names][]
 
 ## Game Rules
@@ -85,3 +86,4 @@ These are some of the game systems, supplements, and tools I'm using to help wit
 [M-Space]: https://www.frostbytebooks.com/m-space
 [M-Space-Companion]:https://www.frostbytebooks.com/companion
 [2300AD]: https://www.mongoosepublishing.com/products/2300ad?srsltid=AfmBOoqEsbyi0C4AtrxRI8RjmeVwC9ZKrjCIxXKMVcTtMArE_GYlHJIF
+[PV]: https://www.drivethrurpg.com/en/product/502848/the-perilous-void
