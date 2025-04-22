@@ -2,11 +2,22 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
   
-  <ul>
-  {{ range .Data.Terms.Alphabetical }}
-  	<li>
-    	<a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})
-  	</li>
-  {{ end }}
-  </ul>
+<ul class="list-unstyled">
+	{{ range .Paginator.Pages }}
+	<li class="margin-bottom-large">
+		<h2 class="no-margin-bottom">
+			<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+		</h2>
+		{{ .Summary }}
+		<p>
+			<a href="{{ .RelPermalink }}">Read More: {{ .LinkTitle }}</a>
+		</p>
+	<li>
+	{{ end }}
+</ul>
+
+<div>
+{{ template "_internal/pagination.html" . }}
+</div>
+
 {{ end }}
