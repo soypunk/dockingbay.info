@@ -1,7 +1,7 @@
 baseURL = 'https://dockingbay.info/'
 languageCode = 'en-us'
 title = 'Docking Bay'
-theme = 'db'
+theme = 'db2'
 
 enableRobotsTXT = true
 
