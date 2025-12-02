@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article>
+  <header>
+    <h1 class="margin-top">{{ .Title }}</h1>
+  </header>
+
+  <section class="prose flow">
+	  {{ .Content }}
+  </section>
+  <hr>
+  
+  <footer>
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+
+    <p class="">Posted on <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>.</p>
+  
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </footer>
+</article>
+{{ end }}

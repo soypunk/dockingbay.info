@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}"  class="scanlines">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="padding-top padding-bottom">
+  <a href="#main" class="visually-hidden focusable">Skip to main content</a>
+  <div class="container">
+	  <header>
+		{{ partial "header.html" . }}
+	  </header>
+	  <main id="main" role="main" tabindex="-1">
+		{{ block "main" . }}{{ end }}
+	  </main>
+	  <footer class="padding-top-small padding-bottom-small">
+		{{ partial "footer.html" . }}
+	  </footer>
+	</div>
+</body>
+</html>

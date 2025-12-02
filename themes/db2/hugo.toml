@@ -1,0 +1,50 @@
+baseURL = 'https://dockingbay.info/'
+languageCode = 'en-us'
+title = 'Docking Bay'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Blog'
+pageRef = '/blog/'
+weight = 20
+
+[[menus.main]]
+name = 'Recaps'
+pageRef = '/recaps/'
+weight = 25
+
+[[menus.main]]
+name = 'Resources'
+pageRef = '/resources/'
+weight = 30
+
+[[menus.main]]
+name = 'Universes'
+pageRef = '/universes'
+weight = 40
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 50
+
+
+[[menus.footer]]
+name = 'About'
+pageRef = '/about/'
+weight = 10
+
+[[menus.footer]]
+name = 'RSS'
+url = '/index.xml'
+weight = 20
+
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

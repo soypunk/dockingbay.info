@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+	<div class="row row-gap-large">
+	
+		<div class="grid-two-thirds">
+		
+		<h2>Blog & Recaps</h2>		
+		
+		<ul class="list-unstyled">
+		{{ range first 10 (where .Site.RegularPages "Section" "in" (slice "recaps" "blog")) }}
+			<li>
+				<article class="margin-bottom-large">
+					<header>
+						<h3 class="no-margin-bottom">
+							<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+						</h3>
+						{{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+						{{ $dateHuman := .Date | time.Format ":date_long" }}
+						<p class="text-muted text-small">
+							Posted on <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+						</p>
+					<header>
+					<section class="prose flow">
+						{{ .Content }}
+					</section>
+				</article>
+			</li>
+		{{ end }}
+		</ul>
+		</div>
+		
+		<div class="grid-third">
+			<h2 class="no-margin-bottom">Product Reviews</h2>
+			<ul>
+			{{ $reviews := where .Site.RegularPages "Section" "reviews" }}
+			{{ range first 10 $reviews }}
+				<li>
+					<h3 class="no-margin-bottom"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+					{{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+					{{ $dateHuman := .Date | time.Format ":date_long" }}
+					<p class="no-margin-bottom"><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></p>
+				</li>
+			{{ end }}
+			</ul>
+			<p>&raquo; <a href="/reviews/">Review Section</a></p>
+		</div>		
+	
+	</div>
+  
+{{ end }}
