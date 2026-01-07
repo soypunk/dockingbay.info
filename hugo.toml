@@ -1,7 +1,9 @@
-baseURL = 'https://dockingbay.info/'
-languageCode = 'en-us'
-title = 'Docking Bay'
-theme = 'db2'
+baseURL = "https://dockingbay.info/"
+languageCode = "en-us"
+title = "Docking Bay"
+author = "Shawn Medero"
+copyright = "© dockingbay.info 2026"
+theme = ["hugo-bearblog"]
 
 enableRobotsTXT = true
 
@@ -23,3 +25,20 @@ summaryLength = 50
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+
+[permalinks]
+	blog = "/blog/:slug/"
+	tags = "/tags/:slug"
+
+[params]
+	description = "Sci-Fi Solitaire RPG adventures"
+	title = "dockingbay.info"
+	hideMadeWithLine = true
+	enablePostNavigator = true
+	
+[markup]
+  [markup.highlight]
+    style = 'friendly'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true

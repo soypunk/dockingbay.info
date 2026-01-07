@@ -1,5 +1,7 @@
 +++
 title = 'Resources'
+menu = "main"
+weight = 300
 url = '/resources/'
 date = 2024-12-19T08:00:00-07:00
 draft = false
