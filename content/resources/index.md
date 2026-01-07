@@ -8,7 +8,7 @@ draft = false
 ignore = true
 +++
 
-These are some of the game systems, supplements, and tools I'm using to help with world-building or refereeing the sessions I play.
+These are some of the game systems, supplements, and tools I'm using to help with world-building or refereeing the sessions I play. I don't use them all at once and in fact I highly recommend you don't. Too much page flipping and pulling books off the shelf leads to interruptions, play fatigue, etc.
 
 <!--more-->
 
@@ -34,6 +34,7 @@ These are some of the game systems, supplements, and tools I'm using to help wit
 - [Outlaws in the Outer Fringe][] (Encounters)
 - [SOLO][zozer-solo] from [Zozer Games][] (Encounters, Starport Details)
 - [Solo RPG Framework and Toolbox - SPACE OPERA][CarstenSOLOFramework] from Carsten‬‭ Rossner
+- [SOLO Traveller][] from Kellri
 - [Starforged Oracles][Starforged]
 - [Star Scoundrels][] (Character Traits)
 - [Star Wars: Galactic Campaign Guide (2003)][] (Planet Generation, Names)
@@ -76,6 +77,7 @@ These are some of the game systems, supplements, and tools I'm using to help wit
 [Mythic Magazine Volume 29]: https://www.drivethrurpg.com/product/436964/Mythic-Magazine-Volume-29
 [zozer-solo]: https://www.paulelliottbooks.com/solo.html
 [HOSTILE Solo]: https://www.paulelliottbooks.com/hostile-solo.html
+[SOLO Traveller]: https://www.knights-n-knaves.com/phpbb3/viewtopic.php?p=313796#p313796
 [Zozer Games]: https://www.paulelliottbooks.com
 [Elite]: http://www.iancgbell.clara.net/elite/text/index.htm
 [US County Names]: https://en.wikipedia.org/wiki/List_of_the_most_common_U.S._county_names
